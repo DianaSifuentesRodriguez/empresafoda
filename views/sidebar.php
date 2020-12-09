@@ -68,7 +68,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                  <a href="<?php echo constant('URL');?>usuario" class="nav-link">
+                  <a href="<?php echo constant('URL');?>listarempresa" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Listar Empresas</p>
                 </a>
@@ -85,13 +85,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                 <a href="<?php echo constant('URL');?>usuario" class="nav-link">
+                 <a href="<?php echo constant('URL');?>regfactores" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Registrar Estrategias</p>
                 </a>
               </li>
               <li class="nav-item">
-                   <a href="<?php echo constant('URL');?>usuario" class="nav-link">
+                   <a href="<?php echo constant('URL');?>listarestra" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Listar Estrategias</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                   <a href="<?php echo constant('URL');?>matrizfoda" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Visualizar FODA</p>
                 </a>
